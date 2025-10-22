@@ -6,6 +6,25 @@ import {
     AwardIcon, FeatherIcon, CalendarDaysIcon, SparklesIcon, GemIcon, RecycleIcon
 } from './components/Icons';
 
+// Import gallery images
+import gal1Img from './components/src/images/gallery/gal1.png';
+import gal2Img from './components/src/images/gallery/gal2.png';
+import gal3Img from './components/src/images/gallery/gal3.png';
+import gal4Img from './components/src/images/gallery/gal4.png';
+import gal5Img from './components/src/images/gallery/gal5.png';
+import gal6Img from './components/src/images/gallery/gal6.png';
+
+// Import yoga class images
+import hathaYogaImg from './components/src/images/yoga/hatha-yoga.png';
+import therapeuticYogaImg from './components/src/images/yoga/therapeutic-yoga.png';
+import pilatesImg from './components/src/images/yoga/pilates.png';
+import powerYogaImg from './components/src/images/yoga/power-yoga.png';
+import ashtangaVinyasaImg from './components/src/images/yoga/ashtanga-vinyasa-yoga.png';
+import chairYogaImg from './components/src/images/yoga/chair-yoga.png';
+import prenatalPostnatalImg from './components/src/images/yoga/prenatal-postnatal-yoga.png';
+import kidsYogaImg from './components/src/images/yoga/kids-yoga.png';
+import bogoStudioImg from './components/src/images/yoga/BOGO-STUDIO.png';
+
 export const NAV_LINKS: NavLink[] = [
     { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
@@ -16,15 +35,15 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const CLASSES_DATA: ClassInfo[] = [
-    { category: 'Beginner', title: 'Hatha Yoga', description: 'Find your foundation. A gentle practice focusing on posture, breath, and inner stillness.', icon: <WindIcon />, image: "https://images.unsplash.com/photo-1593164842244-eff5570fbdb0?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Therapeutic', title: 'Therapeutic Yoga', description: 'A personalized path to healing, designed to restore balance and relieve chronic stress.', icon: <HeartPulseIcon />, image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1820&auto=format&fit=crop" },
-    { category: 'Advanced', title: 'Exclusive Pilates', description: 'Sculpt and strengthen. Our refined Pilates sessions build a powerful core and elegant posture.', icon: <DumbbellIcon />, image: "https://images.unsplash.com/photo-1599446432858-545a13347a6b?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Advanced', title: 'Power Yoga', description: 'Ignite your inner fire with a dynamic, high-intensity flow for stamina and detoxification.', icon: <FlameIcon />, image: "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Advanced', title: 'Ashtanga Vinyasa', description: 'A moving meditation. Synchronize breath with vigorous movement for a transformative experience.', icon: <WindIcon />, image: "https://images.unsplash.com/photo-1622353399452-c277c4140043?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Beginner', title: 'Restorative Yoga', description: 'Deeply relaxing, gentle yoga for mental clarity and profound rejuvenation.', icon: <MoonIcon />, image: "https://images.unsplash.com/photo-1562048200-342c337b5269?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Therapeutic', title: 'Prenatal & Postnatal', description: 'Nurturing support for mothers. Strengthen your body and bond with your baby in a serene space.', icon: <BabyIcon />, image: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Kids', title: 'Little Sprouts Yoga', description: 'Playful practice for children, cultivating balance, focus, and joyful movement.', icon: <SmileIcon />, image: "https://images.unsplash.com/photo-1518997542232-34860b298e6c?q=80&w=1887&auto=format&fit=crop" },
-    { category: 'Seniors', title: 'Golden Years Yoga', description: 'Accessible, gentle yoga to enhance mobility, balance, and vitality for seniors.', icon: <ArmchairIcon />, image: "https://images.unsplash.com/photo-1603572473204-ff2983d3170d?q=80&w=1887&auto=format&fit=crop" },
+    { category: 'Beginner', title: 'Hatha Yoga', description: 'Find your foundation. A gentle practice focusing on posture, breath, and inner stillness.', icon: <WindIcon />, image: hathaYogaImg },
+    { category: 'Therapeutic', title: 'Therapeutic Yoga', description: 'A personalized path to healing, designed to restore balance and relieve chronic stress.', icon: <HeartPulseIcon />, image: therapeuticYogaImg },
+    { category: 'Advanced', title: 'Exclusive Pilates', description: 'Sculpt and strengthen. Our refined Pilates sessions build a powerful core and elegant posture.', icon: <DumbbellIcon />, image: pilatesImg },
+    { category: 'Advanced', title: 'Power Yoga', description: 'Ignite your inner fire with a dynamic, high-intensity flow for stamina and detoxification.', icon: <FlameIcon />, image: powerYogaImg },
+    { category: 'Advanced', title: 'Ashtanga Vinyasa', description: 'A moving meditation. Synchronize breath with vigorous movement for a transformative experience.', icon: <WindIcon />, image: ashtangaVinyasaImg },
+    { category: 'Beginner', title: 'Restorative Yoga', description: 'Deeply relaxing, gentle yoga for mental clarity and profound rejuvenation.', icon: <MoonIcon />, image: chairYogaImg },
+    { category: 'Therapeutic', title: 'Prenatal & Postnatal', description: 'Nurturing support for mothers. Strengthen your body and bond with your baby in a serene space.', icon: <BabyIcon />, image: prenatalPostnatalImg },
+    { category: 'Kids', title: 'Little Sprouts Yoga', description: 'Playful practice for children, cultivating balance, focus, and joyful movement.', icon: <SmileIcon />, image: kidsYogaImg },
+    { category: 'Seniors', title: 'Golden Years Yoga', description: 'Accessible, gentle yoga to enhance mobility, balance, and vitality for seniors.', icon: <ArmchairIcon />, image: bogoStudioImg },
 ];
 
 export const WHY_JOIN_US_POINTS: WhyJoinUsPoint[] = [
@@ -49,14 +68,12 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
 
 
 export const GALLERY_IMAGES = [
-    "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1626&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1591291621227-972740b7b093?q=80&w=1770&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1681&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1603988363602-91d1a13498c2?q=80&w=1770&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1510894222348-43c3e1b9ed42?q=80&w=1770&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1699&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=1770&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1542496667-4d6b7942622e?q=80&w=1770&auto=format&fit=crop",
+    gal1Img,
+    gal2Img,
+    gal3Img,
+    gal4Img,
+    gal5Img,
+    gal6Img,
 ];
 
 export const SOCIAL_LINKS = [

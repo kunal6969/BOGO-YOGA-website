@@ -17,16 +17,16 @@ const About: React.FC = () => {
                     </div>
                 </AnimateOnScroll>
                 
-                <div className="mt-16 md:mt-20 group">
+                <div className="mt-16 md:mt-20">
                     <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-stretch">
                         <AnimateOnScroll>
-                             <div className="rounded-lg shadow-xl overflow-hidden h-full">
-                               <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=1770&auto=format&fit=crop" alt="Serene yoga space" className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110" />
+                             <div className="rounded-lg shadow-xl overflow-hidden h-full border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
+                               <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=1770&auto=format&fit=crop" alt="Serene yoga space" className="object-cover w-full h-full transition-transform duration-500 hover:scale-110" />
                             </div>
                         </AnimateOnScroll>
                         <AnimateOnScroll>
-                            <div className="flex flex-col justify-center h-full">
-                                <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4 transition-colors duration-300 group-hover:text-brand-gold">Our Philosophy</h3>
+                            <div className="flex flex-col justify-center h-full p-6 md:p-8 bg-brand-surface/50 rounded-lg border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
+                                <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4">Our Philosophy</h3>
                                 <p className="mb-4 text-brand-text-dark/80">At BOGO YOGA, we believe yoga is an art form—a journey into mindfulness, resilience, and inner balance. We provide a sanctuary where movement becomes meditation, and breath becomes the anchor to your serene center.</p>
                                 <p className="text-brand-text-dark/80">Our ethos is built on providing an exclusive, refined environment for personal transformation.</p>
                             </div>
@@ -34,16 +34,16 @@ const About: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="mt-16 md:mt-20 group">
+                <div className="mt-16 md:mt-20">
                     <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-stretch">
                          <AnimateOnScroll className="md:order-2">
-                            <div className="rounded-lg shadow-xl overflow-hidden h-full">
-                               <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1699&auto=format&fit=crop" alt="Yoga class" className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110" />
+                            <div className="rounded-lg shadow-xl overflow-hidden h-full border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
+                               <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1699&auto=format&fit=crop" alt="Yoga class" className="object-cover w-full h-full transition-transform duration-500 hover:scale-110" />
                             </div>
                         </AnimateOnScroll>
                         <AnimateOnScroll className="md:order-1">
-                             <div className="flex flex-col justify-center h-full">
-                                <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4 transition-colors duration-300 group-hover:text-brand-gold">Our Story</h3>
+                             <div className="flex flex-col justify-center h-full p-6 md:p-8 bg-brand-surface/50 rounded-lg border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
+                                <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4">Our Story</h3>
                                 <p className="mb-4 text-brand-text-dark/80">Born from a desire to create an oasis of tranquility amidst the bustle of modern life, BOGO YOGA is more than a studio—it's a curated wellness experience. We offer a holistic blend of traditional yoga, therapeutic practices, and Pilates within a space designed for peace and inspiration.</p>
                                 <p className="text-brand-text-dark/80">Our mission is to elevate the practice of yoga into a lifestyle of grace and mindfulness.</p>
                             </div>
