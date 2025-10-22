@@ -51,8 +51,19 @@ const App: React.FC = () => {
 
         const imagePromises = criticalImages.map(loadImage);
 
-        // Wait for both critical images to load AND for the initial animations to finish.
-        Promise.all([...imagePromises, animationsCompletePromise]).finally(() => {
+        // Maximum 2 second timeout to prevent infinite loading
+        const timeoutPromise = new Promise<void>((resolve) => {
+            setTimeout(() => {
+                console.log('Loading timeout reached, forcing page load');
+                resolve();
+            }, 2000);
+        });
+
+        // Wait for both critical images to load AND for the initial animations to finish, or timeout
+        Promise.race([
+            Promise.all([...imagePromises, animationsCompletePromise]),
+            timeoutPromise
+        ]).finally(() => {
             setIsLoading(false);
             setTimeout(() => {
                 setIsLoaderMounted(false);

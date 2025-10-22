@@ -81,42 +81,42 @@ const Contact: React.FC = () => {
                         </div>
                     </AnimateOnScroll>
                     
-                    <AnimateOnScroll className="flex flex-col">
-                        <div className="relative overflow-hidden mb-8 p-6 md:p-8 rounded-lg bg-brand-surface/50 shadow-lg backdrop-blur-sm border border-brand-gold/10 flex-grow flex flex-col justify-center transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-brand-gold/20 hover:border-brand-gold">
+                    <AnimateOnScroll className="flex flex-col gap-8">
+                        <div className="relative overflow-hidden p-6 md:p-8 rounded-lg bg-brand-surface/50 shadow-lg backdrop-blur-sm border border-brand-gold/10 transition-all duration-300 hover:shadow-2xl hover:shadow-brand-gold/20 hover:border-brand-gold">
                             <CornerAccent position="top-left" className="absolute top-0 left-0 text-brand-gold/30" />
                             <CornerAccent position="bottom-right" className="absolute bottom-0 right-0 text-brand-gold/30" />
                             <h3 className="text-2xl font-bold font-playfair mb-6 text-brand-green">Contact Details</h3>
-                            <div className="space-y-5">
-                                <a href="https://maps.google.com/?q=Bokoyoga+studio" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
-                                    <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green">
+                            <div className="space-y-4">
+                                <a href="https://maps.google.com/?q=Bokoyoga+studio" target="_blank" rel="noopener noreferrer" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                    <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <MapPinIcon />
                                     </div>
-                                    <div className="ml-4 flex-grow">
-                                        <p className="font-semibold font-playfair text-lg text-brand-green">Location</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green">Bokoyoga studio</p>
+                                    <div className="ml-4">
+                                        <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Location</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bokoyoga studio</p>
                                     </div>
                                 </a>
-                                <a href="tel:+97471718108" className="flex items-center p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
-                                    <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green">
+                                <a href="tel:+97471718108" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                    <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <PhoneIcon />
                                     </div>
-                                    <div className="ml-4 flex-grow">
-                                        <p className="font-semibold font-playfair text-lg text-brand-green">Phone</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green">+974-71718108</p>
+                                    <div className="ml-4">
+                                        <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Phone</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">+974-71718108</p>
                                     </div>
                                 </a>
-                                <a href="mailto:bogoyogaqtr@gmail.com" className="flex items-center p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
-                                     <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green">
+                                <a href="mailto:bogoyogaqtr@gmail.com" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                     <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <MailIcon />
                                     </div>
-                                    <div className="ml-4 flex-grow">
-                                        <p className="font-semibold font-playfair text-lg text-brand-green">Email</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green">bogoyogaqtr@gmail.com</p>
+                                    <div className="ml-4">
+                                        <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Email</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">bogoyogaqtr@gmail.com</p>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div className="flex-grow rounded-lg overflow-hidden border-4 border-brand-gold/20 min-h-[250px] md:min-h-[300px] shadow-lg">
+                        <div className="rounded-lg overflow-hidden border-4 border-brand-gold/20 min-h-[250px] md:min-h-[300px] shadow-lg">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.132899173016!2d51.44294081501095!3d25.26601468386398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45d067403436e9%3A0x2617c3c4314e365e!2sAspire%20Zone!5e0!3m2!1sen!2sqa!4v1672522557432!5m2!1sen!2sqa"
                                 width="100%"
