@@ -87,13 +87,13 @@ const Contact: React.FC = () => {
                             <CornerAccent position="bottom-right" className="absolute bottom-0 right-0 text-brand-gold/30" />
                             <h3 className="text-2xl font-bold font-playfair mb-6 text-brand-green">Contact Details</h3>
                             <div className="space-y-4">
-                                <a href="https://maps.google.com/?q=Bokoyoga+studio" target="_blank" rel="noopener noreferrer" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                <a href="https://maps.google.com/?q=BogoYoga+studio" target="_blank" rel="noopener noreferrer" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
                                     <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <MapPinIcon />
                                     </div>
                                     <div className="ml-4">
                                         <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Location</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bokoyoga studio</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bogo Yoga studio</p>
                                     </div>
                                 </a>
                                 <a href="tel:+97471718108" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
