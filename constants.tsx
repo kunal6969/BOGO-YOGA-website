@@ -2,7 +2,7 @@ import React from 'react';
 import { ClassInfo, Testimonial, WhyJoinUsPoint, NavLink } from './types';
 import {
     WindIcon, HeartPulseIcon, DumbbellIcon, FlameIcon, MoonIcon, BabyIcon, SmileIcon, ArmchairIcon,
-    InstagramIcon, FacebookIcon, TwitterIcon, YoutubeIcon,
+    InstagramIcon, FacebookIcon, TikTokIcon, LinkedInIcon,
     AwardIcon, FeatherIcon, CalendarDaysIcon, SparklesIcon, GemIcon, RecycleIcon
 } from './components/Icons';
 
@@ -77,8 +77,8 @@ export const GALLERY_IMAGES = [
 ];
 
 export const SOCIAL_LINKS = [
-    { href: "#", icon: <InstagramIcon />, name: "Instagram" },
-    { href: "#", icon: <FacebookIcon />, name: "Facebook" },
-    { href: "#", icon: <TwitterIcon />, name: "Twitter" },
-    { href: "#", icon: <YoutubeIcon />, name: "YouTube" },
+    { href: "https://www.instagram.com/bogoyogaqa/", icon: <InstagramIcon />, name: "Instagram" },
+    { href: "https://www.facebook.com/profile.php?id=61583330872932", icon: <FacebookIcon />, name: "Facebook" },
+    { href: "https://www.tiktok.com/@bogoyogaqa", icon: <TikTokIcon />, name: "TikTok" },
+    { href: "https://www.linkedin.com/company/bogo-yoga/?viewAsMember=true", icon: <LinkedInIcon />, name: "LinkedIn" },
 ];

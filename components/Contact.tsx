@@ -87,13 +87,13 @@ const Contact: React.FC = () => {
                             <CornerAccent position="bottom-right" className="absolute bottom-0 right-0 text-brand-gold/30" />
                             <h3 className="text-2xl font-bold font-playfair mb-6 text-brand-green">Contact Details</h3>
                             <div className="space-y-4">
-                                <a href="https://maps.google.com/?q=BogoYoga+studio" target="_blank" rel="noopener noreferrer" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                <a href="https://www.google.com/maps/place/Bogo+Yoga/@25.1593651,51.5178013,17z/data=!3m1!4b1!4m6!3m5!1s0x3e45cd64efbe6ceb:0x5850b8232e97b970!8m2!3d25.1593651!4d51.5178013!16s%2Fg%2F11ym3s1cf6?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
                                     <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <MapPinIcon />
                                     </div>
                                     <div className="ml-4">
                                         <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Location</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bogo Yoga studio</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bokoyoga studio</p>
                                     </div>
                                 </a>
                                 <a href="tel:+97471718108" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
@@ -118,13 +118,12 @@ const Contact: React.FC = () => {
                         </div>
                         <div className="rounded-lg overflow-hidden border-4 border-brand-gold/20 min-h-[250px] md:min-h-[300px] shadow-lg">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.132899173016!2d51.44294081501095!3d25.26601468386398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45d067403436e9%3A0x2617c3c4314e365e!2sAspire%20Zone!5e0!3m2!1sen!2sqa!4v1672522557432!5m2!1sen!2sqa"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.8973831735376!2d51.515390075718044!3d25.159365177697776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cd64efbe6ceb%3A0x5850b8232e97b970!2sBogo%20Yoga!5e0!3m2!1sen!2sqa!4v1730898765432!5m2!1sen!2sqa"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
                                 allowFullScreen={false}
                                 loading="lazy"
-                                // FIX: Corrected typo in referrerPolicy attribute value.
                                 referrerPolicy="no-referrer-when-downgrade"
                                 title="BOGO YOGA Location"
                             ></iframe>
