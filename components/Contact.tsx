@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    access_key: 'bf2d430b-3536-4476-b992-e5a7902c3b35',
+                    access_key: '5f37f725-b6e9-4890-b476-1adc6b3ffc5a',
                     name: formData.name,
                     email: formData.email,
                     message: formData.message,
@@ -105,13 +105,13 @@ const Contact: React.FC = () => {
                                         <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">+974-71718108</p>
                                     </div>
                                 </a>
-                                <a href="mailto:bogoyogaqtr@gmail.com" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
+                                <a href="mailto:bogoyogaqatar@gmail.com" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
                                      <div className="p-3 bg-brand-gold/10 rounded-full text-brand-gold transition-colors duration-300 group-hover:text-brand-green flex-shrink-0">
                                         <MailIcon />
                                     </div>
                                     <div className="ml-4">
                                         <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Email</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">bogoyogaqtr@gmail.com</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">bogoyogaqatar@gmail.com</p>
                                     </div>
                                 </a>
                             </div>
