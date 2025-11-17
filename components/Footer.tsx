@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                         <p className="text-brand-text-light/90 mb-6">Balance. Breathe. Become.</p>
                         <div className="flex space-x-4">
                             {SOCIAL_LINKS.map(social => (
-                                <a key={social.name} href={social.href} aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
+                                <a key={social.name} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
                                     {social.icon}
                                 </a>
                             ))}

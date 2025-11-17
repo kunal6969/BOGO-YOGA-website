@@ -54,16 +54,16 @@ const Hero: React.FC<HeroProps> = ({ onAnimationsComplete }) => {
             {/* Social links for mobile, at the bottom */}
             <div className="absolute bottom-24 z-20 flex space-x-6 md:hidden">
                 {SOCIAL_LINKS.map((social, index) => (
-                     <a key={index} href={social.href} aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
+                     <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
                        {React.cloneElement(social.icon, { className: 'w-6 h-6' })}
                     </a>
                 ))}
             </div>
 
             {/* Social links for desktop, on the side */}
-            <div className="hidden md:flex absolute top-1/2 right-4 transform -translate-y-1/2 flex-col space-y-4 p-2 bg-brand-black/20 rounded-l-lg backdrop-blur-sm">
+            <div className="hidden md:flex absolute top-1/2 right-4 transform -translate-y-1/2 flex-col space-y-4 p-2 bg-brand-black/20 rounded-l-lg backdrop-blur-sm z-20">
                 {SOCIAL_LINKS.map((social, index) => (
-                     <a key={index} href={social.href} aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
+                     <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.name} className="text-brand-text-light hover:text-brand-gold transition-all duration-300 transform hover:scale-110">
                        {React.cloneElement(social.icon, { className: 'w-5 h-5' })}
                     </a>
                 ))}
