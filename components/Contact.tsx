@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div className="ml-4">
                                         <p className="font-semibold font-playfair text-lg text-brand-green mb-1">Location</p>
-                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bokoyoga studio</p>
+                                        <p className="text-brand-text-dark/80 transition-colors duration-300 group-hover:text-brand-green break-words">Bogoyoga studio</p>
                                     </div>
                                 </a>
                                 <a href="tel:+97471718108" className="flex items-start p-4 rounded-lg transition-all duration-300 hover:bg-brand-gold/10 group">
