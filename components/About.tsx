@@ -27,7 +27,7 @@ const About: React.FC = () => {
                         <AnimateOnScroll>
                             <div className="flex flex-col justify-center h-full p-6 md:p-8 bg-brand-surface/50 rounded-lg border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
                                 <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4">Our Philosophy</h3>
-                                <p className="mb-4 text-brand-text-dark/80">At Bogo Fitness, we believe yoga is an art form—a journey into mindfulness, resilience, and inner balance. We provide a sanctuary where movement becomes meditation, and breath becomes the anchor to your serene center.</p>
+                                <p className="mb-4 text-brand-text-dark/80">At Bogo Fitness, we believe pilates is an art form—a journey into mindfulness, resilience, and inner balance. We provide a sanctuary where movement becomes meditation, and breath becomes the anchor to your serene center.</p>
                                 <p className="text-brand-text-dark/80">Our ethos is built on providing an exclusive, refined environment for personal transformation.</p>
                             </div>
                         </AnimateOnScroll>
@@ -44,8 +44,8 @@ const About: React.FC = () => {
                         <AnimateOnScroll className="md:order-1">
                              <div className="flex flex-col justify-center h-full p-6 md:p-8 bg-brand-surface/50 rounded-lg border border-brand-gold/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
                                 <h3 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4">Our Story</h3>
-                                <p className="mb-4 text-brand-text-dark/80">Born from a desire to create an oasis of tranquility amidst the bustle of modern life, Bogo Fitness is more than a studio—it's a curated wellness experience. We offer a holistic blend of traditional yoga, therapeutic practices, and Pilates within a space designed for peace and inspiration.</p>
-                                <p className="text-brand-text-dark/80">Our mission is to elevate the practice of yoga into a lifestyle of grace and mindfulness.</p>
+                                <p className="mb-4 text-brand-text-dark/80">Born from a desire to create an oasis of tranquility amidst the bustle of modern life, Bogo Fitness is more than a studio—it's a curated wellness experience. We offer a holistic blend of traditional, therapeutic practices, and Pilates within a space designed for peace and inspiration.</p>
+                                <p className="text-brand-text-dark/80">Our mission is to elevate the practice of pilates into a lifestyle of grace and mindfulness.</p>
                             </div>
                         </AnimateOnScroll>
                     </div>
@@ -61,7 +61,7 @@ const About: React.FC = () => {
                      <AnimateOnScroll>
                         <div className="p-6 md:p-8 bg-brand-surface/50 rounded-lg border border-brand-gold/20 h-full transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-brand-gold">
                             <h4 className="text-2xl md:text-3xl font-bold font-playfair text-brand-green mb-4">Our Mission</h4>
-                            <p className="text-brand-text-dark/80">To offer exceptionally curated yoga, Pilates, and therapeutic sessions in a serene and empowering space, inspiring our community to embrace self-care and live with intention and harmony.</p>
+                            <p className="text-brand-text-dark/80">To offer exceptionally curated pilates, and therapeutic sessions in a serene and empowering space, inspiring our community to embrace self-care and live with intention and harmony.</p>
                         </div>
                     </AnimateOnScroll>
                 </div>
